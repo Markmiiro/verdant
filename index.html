@@ -562,7 +562,7 @@ h1, h2, h3, h4 {
 
 /* ---- 4.7 Mobile app ---- */
 .steps { display: grid; gap: 20px; width: 100%; }
-.step { display: flex; gap: 16px; align-items: flex-start; }
+.step { display: flex; gap: 16px; align-items: center; }
 .step-num {
   flex: none; display: grid; place-items: center; width: 44px; height: 44px; border-radius: 14px;
   background-image: var(--gradient); color: var(--on-gradient);
@@ -1300,27 +1300,26 @@ h1, h2, h3, h4 {
     <div class="container split split--app">
       <div class="split-copy reveal reveal--left">
         <span class="pill">Mobile App</span>
-        <h2 class="h2"><span>Your Community,</span> <span class="grad">In Your Pocket</span></h2>
-        <p>Keep up with chats, lessons and daily activities wherever you are. Getting set up takes two steps.</p>
+        <h2 class="h2"><span>Verdant App for</span> <span class="grad">Smartphone Users</span></h2>
 
         <ol class="steps">
           <li class="step">
             <span class="step-num" aria-hidden="true">1</span>
-            <div><h3>Download the app</h3><p>Install Verdant on your phone and open it to begin.</p></div>
+            <p>Click the button below to download the app directly from our website. (For Android &amp; iOS Users)</p>
           </li>
           <li class="step">
             <span class="step-num" aria-hidden="true">2</span>
-            <div><h3>Create your profile</h3><p>Sign up, choose your interests and start your first activity.</p></div>
+            <p>Follow the on-screen instructions to install and start using the app.</p>
           </li>
         </ol>
 
         <div class="tip" role="note">
           <svg class="icon icon-stroke" aria-hidden="true"><use href="#i-bulb"/></svg>
-          <p><strong>Tip:</strong> turn on notifications so you never miss a live workshop or a daily streak.</p>
+          <p><strong>Tip:</strong> Enable Notifications to stay updated on the latest features and offers!</p>
         </div>
 
         <a class="btn btn--primary" href="#" data-link="downloadApp">
-          <svg class="icon icon-stroke" aria-hidden="true"><use href="#i-download"/></svg>Download App
+          <svg class="icon icon-stroke" aria-hidden="true"><use href="#i-download"/></svg>Download App Here
         </a>
       </div>
 
@@ -1569,7 +1568,7 @@ var LINKS = {
   joinCommunity:   "",   // hero "Join the Community"
   applyNow:        "",   // "Apply Now" (Global Connections section)
   register:        "",   // "Register Today" + footer "Register"
-  downloadApp:     "",   // "Download App" button + footer "Download App"
+  downloadApp:     "",   // "Download App Here" button + footer "Download App"
 
   /* Service cards */
   serviceChat:      "",  // "Start Chatting"
